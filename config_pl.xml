@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>productattributelist</name>
+    <displayName><![CDATA[Product attribute list]]></displayName>
+    <version><![CDATA[1.2.5]]></version>
+    <description><![CDATA[Allows to select individual product attributes directly in product lists.]]></description>
+    <author><![CDATA[Prestapro]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

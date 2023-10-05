@@ -1,0 +1,35 @@
+#products .thumbnail-container:focus .highlighted-informations,
+#products .thumbnail-container:hover .highlighted-informations,
+.featured-products .thumbnail-container:focus .highlighted-informations,
+.featured-products .thumbnail-container:hover .highlighted-informations,
+.product-accessories .thumbnail-container:focus .highlighted-informations,
+.product-accessories .thumbnail-container:hover .highlighted-informations,
+.product-miniature .thumbnail-container:focus .highlighted-informations,
+.product-miniature .thumbnail-container:hover .highlighted-informations,
+.product-miniature:hover .highlighted-informations,
+.featured-products .product-miniature:focus .highlighted-informations,
+.featured-products .product-miniature:hover .highlighted-informations,
+.product-accessories .product-miniature:focus .highlighted-informations,
+.product-accessories .product-miniature:hover .highlighted-informations,
+.product-miniature:focus .highlighted-informations,
+.product-miniature:hover .highlighted-informations,
+.product-miniature.hover-fix .highlighted-informations {
+	bottom: 4.2rem;
+}
+
+#products .thumbnail-container,
+.featured-products .thumbnail-container,
+.product-accessories .thumbnail-container,
+.product-miniature .thumbnail-container {
+	margin-bottom: 0;
+	box-shadow: none;
+}
+
+#products .product-miniature,
+.featured-products .product-miniature,
+.product-accessories .product-miniature,
+.product-miniature {
+	margin-bottom: 1.563rem;
+	box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
+	background-color: #fff;
+}

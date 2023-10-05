@@ -1,0 +1,180 @@
+.productattributelist {
+	position: relative;
+	padding: 5px 15px;
+	text-align: center;
+	display: block;
+	background-color: white;
+	width: 100%;
+}
+
+.productattributelist.on-hover {
+	position: absolute;
+	display: none;
+	top: 100%;
+	box-shadow: 2px 4px 8px 0 rgba(0,0,0,.2);
+}
+
+.product-miniature.hover-fix .productattributelist.on-hover {
+	display: block;
+}
+
+.product-miniature {
+	position: relative;
+}
+
+.product-miniature:hover .productattributelist {
+	display: block;
+}
+
+.productattributelist .plus {
+	border-radius: 0 4px 4px 0;
+	border-left: none;
+}
+
+.productattributelist .minus {
+	border-radius: 4px 0 0 4px;
+	border-right: none;
+}
+
+.productattributelist .pal-btn {
+	line-height: 12px;
+	padding-bottom: 4px;
+	padding-top: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	vertical-align: top;
+}
+
+.productattributelist .pal-add-to-cart {
+	padding: .5rem .7rem;
+}
+
+.productattributelist .buttons .btn-tertiary-outline {
+	align-self: stretch;
+	display: inline-flex;
+	height: 42px;
+	line-height: 1.25;
+	padding: .5rem .4rem;
+}
+
+.productattributelist .attribute_fieldset {
+	
+	text-align: center;
+}
+
+.productattributelist .bootstrap-touchspin {
+	float: right;
+	margin: 5px 0 15px;
+}
+
+.productattributelist .color_pick {
+	width: 25px;
+	height: 25px;
+	margin: 0 .3125rem;
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid rgba(0,0,0,.05);
+	box-shadow: 2px 2px 4px 0 rgba(0,0,0,.2)
+}
+
+.productattributelist .color_pick.selected {
+	border: 2px solid black;
+}
+
+.productattributelist select.group {
+	width: 100%;
+}
+
+/*.productattributelist select.group {
+	background: none;
+	padding: 0 2px;
+	font-size: 14px;
+	margin-top: 2px;
+}*/
+
+.productattributelist .minimal-quantity {
+}
+
+.productattributelist.not-loaded:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: none;
+	background: rgba(255, 255, 255, 0.9);
+	z-index: 10;
+}
+
+ul.product_list .color-list-container .color_to_pick_list {
+	display: none;
+}
+
+.productattributelist.hidden,
+.productattributelist .hidden {
+	display: none;
+}
+
+.productattributelist .input-mask:after {
+	content: '';
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	cursor: wait;
+}
+
+.productattributelist .bootstrap-touchspin input.form-control {
+	width: 3.5rem;
+}
+
+/* .productattributelist .label
+{
+	display: inline-block;
+} */
+
+.variant-links {
+	display: none;
+}
+
+.regular-button input {
+	display: none;
+}
+
+.productattributelist .only-show .color_pick {
+	box-shadow: none;
+}
+
+span.regular-button.btn.btn-secondary {
+	width: 32px;
+	display: block;
+	margin-bottom: 7px;
+	box-shadow: none;
+}
+
+form.buttons {
+	margin: 20px 0 10px;
+	text-align: center;
+}
+
+label.attribute_label {
+	margin-top: 10px;
+	display: block;
+	text-align: center;
+}
+
+span.regular-button.btn.btn-secondary.active {
+	background: transparent;
+	border: 2px solid;
+}
+
+.custom-radio {
+	margin-right: 0;
+}
+
+.productattributelist .color_pick {
+	margin-left: 0;
+}
